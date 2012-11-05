@@ -70,6 +70,10 @@ hr {
 
 
 
+.summary {
+  font-weight: bold;
+}
+
 .summary,
 .body {
   margin: 0 0 15px 0;
@@ -162,10 +166,15 @@ aside dd a:hover {
   margin-left: 20px;
 }
 
+.params,
+.return {
+  margin-left: 5px;
+}
+
 .params dl,
 .return dl {
-  margin: 0 0 0 15px;
-  font-size: 80%;
+  margin: 0 0 0 10px;
+  font-size  : 80%;
 }
 
 .params dt,
