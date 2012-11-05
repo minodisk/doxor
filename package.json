@@ -1,0 +1,24 @@
+{
+  "name"        : "doxor",
+  "version"     : "0.0.1",
+  "description" : "JavaScript document generator",
+  "tags"        : ["dox", "document", "documentor", "jsdoc"],
+  "author"      : {
+    "name" : "Daisuke Mino",
+    "email": "daisuke.mino@gmail.com"
+  },
+  "repository"  : {
+    "type": "git",
+    "url" : "https://github.com/minodisk/doxor.git"
+  },
+  "engines"     : {
+    "node": ">=0.8.14"
+  },
+  "license"     : "MIT",
+  "dependencies": {
+  },
+  "bin"         : {
+    "doxor": "./bin/doxor"
+  },
+  "main"        : "./lib/doxor"
+}
