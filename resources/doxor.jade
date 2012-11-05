@@ -24,10 +24,13 @@ html
 
     .content
       h1= overview.tagMap.name
+      .summary!= overview.description.summary
+      .body!= overview.description.body
       for module in modules
         section
           h2(id=module.ctx.name)= module.ctx.name
-          != module.description.full
+          .summary!= module.description.summary
+          .body!= module.description.body
           for member in module.members
             section(id=module.ctx.name + '.' + member.ctx.name)
               h3= member.ctx.name
